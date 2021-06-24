@@ -13,6 +13,6 @@ while financeira == 'S':
         break
     elif (salario * 30) / 100 < prestacao:
         print('Infelizmente o financiamento foi negado.')
-        print('Tente novamente aumentando a quantidade de anos a pagar, '
-                'não podemos de forma alguma comprometer tanto sua renda.')
+        print('\n\nTente novamente aumentando a quantidade de anos a pagar, '
+                'não podemos de forma alguma comprometer tanto sua renda.\n\n')
         financeira = input('Deseja cotar novamente?(S/N) ').upper()
